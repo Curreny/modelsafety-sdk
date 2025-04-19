@@ -39,7 +39,7 @@ class ModelSafetyClient:
         self.session.headers.update({
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "User-Agent": f"modelsafety-python-sdk/0.1.0"
+            "User-Agent": f"modelsafety-python-sdk/0.1.2"
         })
     
     def _request(
